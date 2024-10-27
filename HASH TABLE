@@ -1,0 +1,6 @@
+dici = {}
+for i in range(n):
+      if nums[i] in dici:
+          dici[nums[i]] += 1
+      else:
+          dici[nums[i]] = 1
